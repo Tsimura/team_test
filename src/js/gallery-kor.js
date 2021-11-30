@@ -10,7 +10,6 @@ const imagesMarkup = galleryItems
   })
   .join('');
 imageContainer.insertAdjacentHTML('beforeend', imagesMarkup);
-// lightbox.refresh();
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
@@ -19,3 +18,4 @@ const lightbox = new SimpleLightbox('.gallery a', {
   animationSlide: true,
   animationSpeed: 250,
 });
+lightbox.refresh();
