@@ -1,2 +1,13 @@
-<div class="gallery"></div>
-<script src="./js/gallery-kor.js"></script>
+<div class="container">
+  <form class="search-form section" id="search-form">
+    <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button type="submit">Search</button>
+  </form>
+  <ul class="gallery section"></ul>
+  <div class="box"></div>
+  <div class="section">
+    <img src="./images/XOsX.gif" width="55" class="load-more" />
+    <!-- <button type="button" class="load-more">Load more</button> -->
+  </div>
+</div>
+<script src="./js/gallery-axios.js"></script>
